@@ -1,0 +1,126 @@
+
+  
+                  _ _     _               _     
+             __ _(_) |_  | |__   __ _ ___(_)___ 
+            / _` | | __| | '_ \ / _` / __| / __|
+           | (_| | | |_  | |_) | (_| \__ \ \__ \
+            \__, |_|\__| |_.__/ \__,_|___/_|___/
+            |___/                               
+
+ ---- a short git manual writen by h471x, 11/08/2023 ------
+
+
+
+ !! Here are the basic steps to use git like a Pro
+
+ ----------------------------------------------------------------------------------------
+
+ *** About Git ***
+
+ ----------------------------------------------------------------------------------------
+
+ ==> What is Git ?
+
+ - Git is the most popular 'distributed' VCS aka 'Version Controller System' in the world
+ - It is used among developpers or programmers environment to record the changes
+  made to the codes aka projects they write inside a database special called 'repository'
+
+ - We can look at the projects history and see when and why the changes have occured 
+ - In case of screwing up something programmers can go back to an early state
+
+ !! The main goal is to prevent programmers to create multiple copy of the projects
+    each time they make a test, an update, a troubleshooting, or a debugging
+
+ - Public and Open Source (distributed), git is like the 'social media' of developpers
+   and it allows each of them to work together on a same project
+
+ - The most popular example I can write here is the global contribution developpers 
+   accross the world made to boost up the GNU/Linux community 
+   The Kernel that Linus Torvalds has built was shared in Git 
+   then everybody can suggests any modification on it : 
+   Tadaaaa, we have what we called 'Linux Distrubutions' aka 'Linux Distros'
+ 
+
+ ==> Where do we access gits ?
+ - We can access gits on https://github.com
+ - Github is where developpers communicate and share codes 
+
+ ----------------------------------------------------------------------------------------
+ ****************************************************************************************
+
+
+
+
+ ----------------------------------------------------------------------------------------
+
+ *** Setting up github account  *** 
+
+ ----------------------------------------------------------------------------------------
+
+ ==> Create a git account
+ - Click sign up in https://github.com 
+ - You can assign your e-mail to your github account
+
+ ==> Creating a new repository
+ - As mentionned before, codes are to be stored at special databases called repository
+ - Each user will have their own repositories inside their Github account
+ - Create one by clicking on the '+' sign on the top-roght corner, select "New Repository"
+ - Give your repository a name and an optional description for its identification
+
+ ----------------------------------------------------------------------------------------
+ ****************************************************************************************
+
+
+
+
+
+ ----------------------------------------------------------------------------------------
+ 
+ *** Setting up local git repository  ***
+ 
+ ----------------------------------------------------------------------------------------
+
+ ==> Initialize your local repository
+
+ - Create a directory in your local machine that will contain your projects 
+ - inside this directory launch the following command :
+ 
+ ==> $ git init
+ 
+- This command will create a folder '.git' that will contain all the files that will be 
+  put in your git repository 
+- This local repository will then be inside the github repository you set before
+- Note that a local directory without this .git folder can't be uploaded to GitHub
+
+==> Start writing files and codes
+- Here you can create, delete, modify files
+
+
+*** Understanding the local repository
+- Git has 2 locations area for controling the versions : 
+
+* Staging area aka 'index'
+- This is the area which will contain the codes or files ready to be uploaded in GitHub
+
+==> $ git add .
+- This will add all the files in the current repository to the staging area
+
+==> $ git add file_name
+- This will add a specified file in the current repository
+
+
+* Commit area
+- This is the area where the codes are stored as they will be in GitHub
+
+==> git commit -m "commit_message"
+- This command will commit all the files in the staging area into the git local repo
+- The '-m' tag will add a message to the commit, it's the commit message
+- This is very useful because it makes the developpers what change did the author did
+- forgot something ...
+
+haha, I guess I just did my first git push origin master there
+
+
+
+
+ 

@@ -1,0 +1,5 @@
+
+ This file will be ignored by git, means that it won't be commited in the master repository for it's just 
+ occupying storage for my repo
+
+ Even I modify this, my repository is still clean
